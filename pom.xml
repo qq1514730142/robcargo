@@ -75,7 +75,7 @@
                 <db.password>root</db.password>
                 <db.Type>MYSQL</db.Type>
                 <db.testsql>select 1</db.testsql>
-                <db.generateDdl>true</db.generateDdl>
+                <db.generateDdl>true</db.generateDdl> 
                 <db.groupId>mysql</db.groupId>
                 <db.artifactId>mysql-connector-java</db.artifactId>
             </properties>
