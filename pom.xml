@@ -911,5 +911,10 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+       <!-- <repository>
+            <id>oss-snapshots</id>
+            <name>Sonatype OSS Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </repository>-->
     </repositories>
 </project>

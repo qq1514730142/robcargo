@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/robcargo.iml" filepath="$PROJECT_DIR$/robcargo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-application/robcargo-application.iml" filepath="$PROJECT_DIR$/robcargo-application/robcargo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-conf/robcargo-conf.iml" filepath="$PROJECT_DIR$/robcargo-conf/robcargo-conf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-core/robcargo-core.iml" filepath="$PROJECT_DIR$/robcargo-core/robcargo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-facade/robcargo-facade.iml" filepath="$PROJECT_DIR$/robcargo-facade/robcargo-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-facade-impl/robcargo-facade-impl.iml" filepath="$PROJECT_DIR$/robcargo-facade-impl/robcargo-facade-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-infra/robcargo-infra.iml" filepath="$PROJECT_DIR$/robcargo-infra/robcargo-infra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robcargo-web/robcargo-web.iml" filepath="$PROJECT_DIR$/robcargo-web/robcargo-web.iml" />
+    </modules>
+  </component>
+</project>
