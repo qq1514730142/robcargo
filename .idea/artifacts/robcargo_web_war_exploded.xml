@@ -29,10 +29,9 @@
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.1.Final" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.2.6.RELEASE" />
-          <element id="archive" name="robcargo-conf-1.0.0-SNAPSHOT.jar">
-            <element id="module-output" name="robcargo-conf" />
-          </element>
-          <element id="library" level="project" name="Maven: com.h2database:h2:1.3.168" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: com:koal-conf:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.22" />
           <element id="library" level="project" name="Maven: org.openkoala.koalacommons:koala-commons-support:4.0.0" />
           <element id="library" level="project" name="Maven: org.dayatang.dddlib:dddlib-query-channel:4.3.6" />
           <element id="library" level="project" name="Maven: org.dayatang.dddlib:dddlib-persistence-jpa:4.3.6" />
@@ -42,34 +41,23 @@
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.2" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.2" />
           <element id="library" level="project" name="Maven: javax.servlet.jsp.jstl:jstl-api:1.2" />
-          <element id="library" level="project" name="Maven: org.openkoala.koalacommons:koala-commons-dddlib-mybatis:4.0.0" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.1.1" />
-          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.1.1" />
           <element id="library" level="project" name="Maven: proxool:proxool:0.9.1" />
           <element id="library" level="project" name="Maven: proxool:proxool-cglib:0.9.1" />
-          <element id="archive" name="robcargo-infra-1.0.0-SNAPSHOT.jar">
-            <element id="module-output" name="robcargo-infra" />
-          </element>
-          <element id="archive" name="robcargo-core-1.0.0-SNAPSHOT.jar">
-            <element id="module-output" name="robcargo-core" />
-          </element>
+          <element id="library" level="project" name="Maven: com:koal-infra:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com:koal-core:1.0.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.3.0.Final" />
           <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
           <element id="library" level="project" name="Maven: commons-dbutils:commons-dbutils:1.5" />
           <element id="library" level="project" name="Maven: com.oracle:ojdbc14:10.2.0.4.0" />
-          <element id="archive" name="robcargo-facade-impl-1.0.0-SNAPSHOT.jar">
-            <element id="module-output" name="robcargo-facade-impl" />
-          </element>
-          <element id="archive" name="robcargo-application-1.0.0-SNAPSHOT.jar">
-            <element id="module-output" name="robcargo-application" />
-          </element>
+          <element id="library" level="project" name="Maven: com:koal-facade-impl:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com:koal-application:1.0.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.openkoala.koalacommons:koala-commons-exception:4.0.0" />
           <element id="library" level="project" name="Maven: org.openkoala.koalacommons:koala-commons-i18n:4.0.0" />
           <element id="library" level="project" name="Maven: org.dayatang.dddlib:dddlib-i18n:4.3.6" />
           <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
           <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.20" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
+          <element id="library" level="project" name="Maven: com:koal-facade:1.0.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: org.dayatang.dddlib:dddlib-ioc-spring:4.3.6" />
           <element id="library" level="project" name="Maven: org.dayatang.dddlib:dddlib-domain:4.3.6" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" />
@@ -100,6 +88,7 @@
           <element id="library" level="project" name="Maven: org.codehaus.groovy:groovy-all:2.2.2" />
           <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.3.168" />
           <element id="library" level="project" name="Maven: cglib:cglib:2.2" />
           <element id="library" level="project" name="Maven: asm:asm:3.1" />
           <element id="library" level="project" name="Maven: org.openkoala.koalacommons:koala-commons-domain:4.0.0" />

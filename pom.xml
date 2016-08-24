@@ -29,7 +29,7 @@
         <jcaptcha.version>2.0-alpha-1</jcaptcha.version>
 
         <!--DB实现以及MVC模型的实现支持，不要修改这两个值-->
-        <dbProtocol>Mybatis</dbProtocol>
+        <dbProtocol>JPA</dbProtocol>
         <mvcProtocol>SpringMVC</mvcProtocol>
 
     </properties>
@@ -46,7 +46,7 @@
                 <hibernate.show_sql>true</hibernate.show_sql>
                 <hibernate.dialect>org.hibernate.dialect.H2Dialect</hibernate.dialect>
                 <db.jdbcDriver>org.h2.Driver</db.jdbcDriver>
-                <!--jdbc:h2:~/robcargo;MVCC=true -->
+                <!--jdbc:h2:~/koal;MVCC=true -->
                 <db.connectionURL>jdbc:h2:mem;MVCC=true</db.connectionURL>
                 <db.username>sa</db.username>
                 <db.password></db.password>
@@ -75,7 +75,7 @@
                 <db.password>root</db.password>
                 <db.Type>MYSQL</db.Type>
                 <db.testsql>select 1</db.testsql>
-                <db.generateDdl>true</db.generateDdl> 
+                <db.generateDdl>true</db.generateDdl>
                 <db.groupId>mysql</db.groupId>
                 <db.artifactId>mysql-connector-java</db.artifactId>
             </properties>
@@ -217,92 +217,92 @@
     <dependencyManagement>
 
         <dependencies>
-          <!-- DDDLIB -->
+            <!-- DDDLIB -->
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-utils</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-domain</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-db</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-ioc-spring</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-persistence-hibernate</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-query-channel</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-spring-test</artifactId>
                 <version>${dddlib.version}</version>
                 <scope>test</scope>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-persistence-jpa</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-cache-memcached</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-datasource-router</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-excel</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-i18n</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-rule-engine</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dayatang.dddlib</groupId>
                 <artifactId>dddlib-ioc-spring</artifactId>
                 <version>${dddlib.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-orm</artifactId>
@@ -326,8 +326,8 @@
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
             </dependency>
-            
-             <dependency>
+
+            <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context-support</artifactId>
                 <version>${spring.version}</version>
@@ -491,22 +491,22 @@
                 <artifactId>koala-commons-i18n</artifactId>
                 <version>${koala.version}</version>
             </dependency>
-            
-	        <dependency> 
-	            <groupId>org.openkoala.koalacommons</groupId>  
-	            <artifactId>koala-commons-domain</artifactId>  
-                <version>${koala.version}</version>
-	        </dependency>  
+
             <dependency>
-			<groupId>org.openkoala.koalacommons</groupId>
-			<artifactId>koala-commons-facade</artifactId>
-		    <version>${koala.version}</version>
-		</dependency>
-          <dependency>
-			<groupId>org.openkoala.koalacommons</groupId>
-			<artifactId>koala-commons-dddlib-mybatis</artifactId>
-			<version>${koala.version}</version>
-		  </dependency>
+                <groupId>org.openkoala.koalacommons</groupId>
+                <artifactId>koala-commons-domain</artifactId>
+                <version>${koala.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openkoala.koalacommons</groupId>
+                <artifactId>koala-commons-facade</artifactId>
+                <version>${koala.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.openkoala.koalacommons</groupId>
+                <artifactId>koala-commons-dddlib-mybatis</artifactId>
+                <version>${koala.version}</version>
+            </dependency>
             <dependency>
                 <groupId>commons-lang</groupId>
                 <artifactId>commons-lang</artifactId>
@@ -643,12 +643,12 @@
                 <version>1.1.1</version>
             </dependency>
 
-			<dependency> 
-	            <groupId>javax.servlet.jsp</groupId>  
-	            <artifactId>jsp-api</artifactId>  
-	            <version>2.1</version>  
-	            <scope>provided</scope> 
-      		 </dependency>  
+            <dependency>
+                <groupId>javax.servlet.jsp</groupId>
+                <artifactId>jsp-api</artifactId>
+                <version>2.1</version>
+                <scope>provided</scope>
+            </dependency>
 
             <dependency>
                 <groupId>dom4j</groupId>
@@ -776,12 +776,12 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.1.22</version>
             </dependency>
-		
-		    <dependency>
-		       <groupId>com.microsoft.sqlserver</groupId>
-		       <artifactId>sqljdbc4</artifactId>
-		       <version>1.0</version>
-		    </dependency>
+
+            <dependency>
+                <groupId>com.microsoft.sqlserver</groupId>
+                <artifactId>sqljdbc4</artifactId>
+                <version>1.0</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.oracle</groupId>
@@ -839,16 +839,16 @@
         </testResources>
 
         <plugins>
-        	 <plugin> 
-	            <groupId>org.apache.maven.plugins</groupId> 
-	            <artifactId>maven-compiler-plugin</artifactId>
-	            <version>3.1</version>
-	            <configuration>
-	                <source>1.6</source>
-	                <target>1.6</target>
-	                <encoding>UTF8</encoding>
-	            </configuration> 
-	         </plugin> 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <encoding>UTF8</encoding>
+                </configuration>
+            </plugin>
         </plugins>
 
         <pluginManagement>
@@ -891,7 +891,7 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-                <repository>
+        <repository>
             <id>dayatang-releases</id>
             <url>http://nexus.dayatang.org:8083/content/repositories/releases</url>
             <releases>
@@ -911,10 +911,5 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
-       <!-- <repository>
-            <id>oss-snapshots</id>
-            <name>Sonatype OSS Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-        </repository>-->
     </repositories>
 </project>

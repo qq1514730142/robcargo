@@ -22,7 +22,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: log4j:log4j:1.2.16" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-configuration:commons-configuration:1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: mysql:mysql-connector-java:5.1.22" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.dbunit:dbunit:2.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
@@ -40,7 +39,7 @@
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.openkoala.koalacommons:koala-commons-domain:4.0.0" level="project" />
     <orderEntry type="module" module-name="robcargo-conf" scope="TEST" production-on-test="" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.3.168" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: mysql:mysql-connector-java:5.1.22" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.openkoala.koalacommons:koala-commons-support:4.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.dayatang.dddlib:dddlib-persistence-jpa:4.3.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-beanutils:commons-beanutils:1.9.1" level="project" />

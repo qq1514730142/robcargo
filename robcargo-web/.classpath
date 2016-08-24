@@ -33,5 +33,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/workspace2/respository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
